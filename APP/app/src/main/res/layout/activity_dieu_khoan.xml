@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".cnAdmin.DieuKhoanActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Điều khoản sử dụng ứng dụng"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="1. Tài khoản"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="- Người dùng cần đăng ký tài khoản để sử dụng các dịch vụ của ứng dụng. Vui lòng đảm bảo thông tin đăng ký chính xác, đầy đủ và được cập nhật."
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="- Người dùng chịu trách nhiệm bảo mật thông tin tài khoản và không được chia sẻ tài khoản với bất kỳ ai."
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="- Tài khoản có thể bị khóa do người dùng vi phạm chính sách của ứng dụng."
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="- Tài khoản có thể bị lỗi ERO khi đăng nhập vì tài khoản đã bị khóa do phát hiện một hành vi."
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="2. Điều khoản chung"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="- Ứng dụng này được cung cấp nhằm mục đích tạo nền tảng mua bán sản phẩm tiện lợi cho người dùng."
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="- Khi sử dụng ứng dụng, bạn đồng ý tuân thủ tất cả các điều khoản được quy định trong tài liệu này."
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="- Chúng tôi có quyền thay đổi hoặc điều chỉnh các điều khoản bất cứ lúc nào mà không cần thông báo trước. Các điều khoản mới sẽ có hiệu lực ngay sau khi được cập nhật trên ứng dụng."
+            android:textSize="20sp" />
+    </LinearLayout>
+</ScrollView>
